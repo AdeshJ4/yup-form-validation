@@ -154,9 +154,7 @@ const FormWithoutValidation = () => {
 
         {/* lastName */}
         <div className="mb-3">
-          <label htmlFor="lastName" className="form-label">
-            Last Name:
-          </label>
+          <label htmlFor="lastName" className="form-label">Last Name:</label>
           <input
             type="text"
             id="lastName"
@@ -173,8 +171,8 @@ const FormWithoutValidation = () => {
 
         {/* email */}
         <div className="mb-3">
-          <label htmlFor="email" className="form-label">
-            Email:
+          <label htmlFor="email" className="form-label">Email:
+            
           </label>
           <input
             type="email"
